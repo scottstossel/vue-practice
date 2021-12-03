@@ -14,6 +14,9 @@ const app = Vue.createApp({
     },
     enterInput(event) {
       this.confirmedInput = event.target.value;
+    },
+    resetInput() {
+      
     }
   }
 });
